@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/atom-one-dark.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+    <script>hljs.highlightAll();</script>
+    <title>Document</title>
+</head>
+
+
+<body>
+    <style>
+        #navbar-example1 .nav-link {
+            background-color: #ebebeb;
+            color: #2e4a8a !important;
+        }
+
+
+        #navbar-example1 .nav-link.active {
+            color: #ebebeb !important;
+            background-color: #2e4a8a !important;
+        }
+
+
+        body {
+            font-family: 'Droid Arabic Kufi';
+            background: #eceef0;
+        }
+    </style>
+
+    <nav id="navbar-example1" class="navbar sticky-top bg-body-tertiary px-3 mb-3">
+        <a class="navbar-brand" href="#">المجموعات</a>
+        <ul class="nav nav-pill ms-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="#scrollspyHeading1">مجموعة أزرار </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#scrollspyHeading2">قائمة المجموعات</a>
+            </li>
+
+        </ul>
+    </nav>
+
+    <div data-bs-spy="scroll" data-bs-target="#navbar-example1" data-bs-root-margin="0px 0px -40%"
+        data-bs-smooth-scroll="true" class="scrollspy-example bg-body-tertiary p-3 rounded-2" tabindex="0">
+        <p>
+        <div class="container mt-5 mb-5">
+            <h4 id="scrollspyHeading1" style="text-align: center;">مجموعة أزرار </h4>
+            <div class="container border border-black rounded-2 pt-2 pb-3">
+
+                <div class="p-3 m-0 border-0 bd-example m-0 border-0">
+
+                 
+                    
+                    <div style="display: flex; justify-content: center; align-items: center;">
+                      <div class="btn-group" style="direction: rtl" role="group" aria-label="Basic mixed styles example">
+                        <button type="button" class="btn btn-success" style="background-color: #5e8557; box-shadow: none; margin: auto; display: block;" onmouseover="this.style.boxShadow='0 0 5px rgba(0, 0, 0, 1)';" onmouseout="this.style.boxShadow='none';">يمين</button>
+                        <button type="button" class="btn btn-success" style="background-color: #9e9e9e; box-shadow: none; margin: auto; display: block;" onmouseover="this.style.boxShadow='0 0 5px rgba(0, 0, 0, 1)';" onmouseout="this.style.boxShadow='none';">وسط</button>
+                        <button type="button" class="btn btn-success" style="background-color: #5e8557; box-shadow: none; margin: auto; display: block;" onmouseover="this.style.boxShadow='0 0 5px rgba(0, 0, 0, 1)';" onmouseout="this.style.boxShadow='none';">يسار</button>
+                      </div>
+                    </div>
+                </div>
+
+                <style>
+                    body {
+                        font-family: 'Droid Arabic Kufi';
+                    }
+                </style>
+
+            </div>
+            <div class="container mt-4" style="display: flex; justify-content: space-between; background-color: black;">
+                <h4></h4>
+
+                <!-- Copy to clipboard -->
+                <a tabindex="0" class="copy-code-button btn" role="button" id="button1" data-bs-toggle="popover"
+                    data-bs-trigger="focus" data-bs-content="تم النسخ !" onclick="copyCodeToClipboard('code1',this.id)">
+                    <i class='bi bi-clipboard2' style="font-size: 1.2rem; color: #ebebeb;"></i>
+                </a>
+            </div>
+
+            <pre><code class="overflow-y-auto" id="code1" style="height: 400px; direction: ltr;">
+&lt;div class=&quot;p-3 m-0 border-0 bd-example m-0 border-0&quot;&gt;
+
+&lt;!-- Example Code --&gt;
+
+&lt;div style=&quot;display: flex; justify-content: center; align-items: center;&quot;&gt;
+    &lt;div class=&quot;btn-group&quot; style=&quot;direction: rtl&quot; role=&quot;group&quot; aria-label=&quot;Basic mixed styles example&quot;&gt;
+    &lt;button type=&quot;button&quot; class=&quot;btn btn-success&quot; style=&quot;background-color: #5e8557; box-shadow: none; margin: auto; display: block;&quot; onmouseover=&quot;this.style.boxShadow=&#39;0 0 5px rgba(0, 0, 0, 1)&#39;;&quot; onmouseout=&quot;this.style.boxShadow=&#39;none&#39;;&quot;&gt;يمين&lt;/button&gt;
+    &lt;button type=&quot;button&quot; class=&quot;btn btn-success&quot; style=&quot;background-color: #9e9e9e; box-shadow: none; margin: auto; display: block;&quot; onmouseover=&quot;this.style.boxShadow=&#39;0 0 5px rgba(0, 0, 0, 1)&#39;;&quot; onmouseout=&quot;this.style.boxShadow=&#39;none&#39;;&quot;&gt;وسط&lt;/button&gt;
+    &lt;button type=&quot;button&quot; class=&quot;btn btn-success&quot; style=&quot;background-color: #5e8557; box-shadow: none; margin: auto; display: block;&quot; onmouseover=&quot;this.style.boxShadow=&#39;0 0 5px rgba(0, 0, 0, 1)&#39;;&quot; onmouseout=&quot;this.style.boxShadow=&#39;none&#39;;&quot;&gt;يسار&lt;/button&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;style&gt;
+body {
+    font-family: &#39;Droid Arabic Kufi&#39;;
+}
+&lt;/style&gt;
+
+             </code></pre>
+
+        </div>
+        </p>
+        <!-------------------------------------------------------------------------------------------->
+        <p>
+        <div class="container mt-5 mb-5">
+            <h4 id="scrollspyHeading2" style="text-align: center;">قائمة المجموعات</h4>
+            <div class="container border border-black rounded-2 pt-3 pb-3">
+
+                <div class="p-3 m-0 border-0 bd-example m-0 border-0">
+                    
+                    <div class="list-group d-flex justify-content-center">
+                        <button type="button" class="list-group-item list-group-item-action" onclick="this.style.backgroundColor='#5e8557'; this.style.color='white';" onblur="this.style.backgroundColor=''; this.style.color='';" onfocus="this.style.backgroundColor='#5e8557'; this.style.color='white';">
+                          الزر الأول
+                        </button>
+                        <button type="button" class="list-group-item list-group-item-action" onclick="this.style.backgroundColor='#5e8557'; this.style.color='white';" onblur="this.style.backgroundColor=''; this.style.color='';" onfocus="this.style.backgroundColor='#5e8557'; this.style.color='white';">
+                          الزر الثاني
+                        </button>
+                        <button type="button" class="list-group-item list-group-item-action" onclick="this.style.backgroundColor='#5e8557'; this.style.color='white';" onblur="this.style.backgroundColor=''; this.style.color='';" onfocus="this.style.backgroundColor='#5e8557'; this.style.color='white';">
+                          الزر الثالث
+                        </button>
+                        <button type="button" class="list-group-item list-group-item-action" onclick="this.style.backgroundColor='#5e8557'; this.style.color='white';" onblur="this.style.backgroundColor=''; this.style.color='';" onfocus="this.style.backgroundColor='#5e8557'; this.style.color='white';">
+                          الزر الرابع
+                        </button>
+                        <button type="button" class="list-group-item list-group-item-action" onclick="this.style.backgroundColor='#5e8557'; this.style.color='white';" onblur="this.style.backgroundColor=''; this.style.color='';" onfocus="this.style.backgroundColor='#5e8557'; this.style.color='white';">
+                          الزر الخامس
+                        </button>
+                      </div>
+                </div>
+
+                <style>
+                    body {
+                        font-family: 'Droid Arabic Kufi';
+                    }
+                </style>
+
+
+            </div>
+            <div class="container mt-4" style="display: flex; justify-content: space-between;background-color: black;">
+                <h4></h4>
+                <!-- Copy to clipboard -->
+                <a tabindex="0" class="copy-code-button btn" role="button" id="button2" data-bs-toggle="popover"
+                    data-bs-trigger="focus" data-bs-content="تم النسخ !" onclick="copyCodeToClipboard('code2',this.id)">
+                    <i class='bi bi-clipboard2' style="font-size: 1.2rem;color: #ebebeb"></i>
+                </a>
+            </div>
+            
+            <pre><code class="overflow-y-auto" id="code2" style="height: 400px; direction: ltr;">
+&lt;div class=&quot;list-group d-flex justify-content-center&quot;&gt;
+&lt;button type=&quot;button&quot; class=&quot;list-group-item list-group-item-action&quot; onclick=&quot;this.style.backgroundColor=&#39;#5e8557&#39;; this.style.color=&#39;white&#39;;&quot; onblur=&quot;this.style.backgroundColor=&#39;&#39;; this.style.color=&#39;&#39;;&quot; onfocus=&quot;this.style.backgroundColor=&#39;#5e8557&#39;; this.style.color=&#39;white&#39;;&quot;&gt;
+    الزر الأول
+&lt;/button&gt;
+&lt;button type=&quot;button&quot; class=&quot;list-group-item list-group-item-action&quot; onclick=&quot;this.style.backgroundColor=&#39;#5e8557&#39;; this.style.color=&#39;white&#39;;&quot; onblur=&quot;this.style.backgroundColor=&#39;&#39;; this.style.color=&#39;&#39;;&quot; onfocus=&quot;this.style.backgroundColor=&#39;#5e8557&#39;; this.style.color=&#39;white&#39;;&quot;&gt;
+    الزر الثاني
+&lt;/button&gt;
+&lt;button type=&quot;button&quot; class=&quot;list-group-item list-group-item-action&quot; onclick=&quot;this.style.backgroundColor=&#39;#5e8557&#39;; this.style.color=&#39;white&#39;;&quot; onblur=&quot;this.style.backgroundColor=&#39;&#39;; this.style.color=&#39;&#39;;&quot; onfocus=&quot;this.style.backgroundColor=&#39;#5e8557&#39;; this.style.color=&#39;white&#39;;&quot;&gt;
+    الزر الثالث
+&lt;/button&gt;
+&lt;button type=&quot;button&quot; class=&quot;list-group-item list-group-item-action&quot; onclick=&quot;this.style.backgroundColor=&#39;#5e8557&#39;; this.style.color=&#39;white&#39;;&quot; onblur=&quot;this.style.backgroundColor=&#39;&#39;; this.style.color=&#39;&#39;;&quot; onfocus=&quot;this.style.backgroundColor=&#39;#5e8557&#39;; this.style.color=&#39;white&#39;;&quot;&gt;
+    الزر الرابع
+&lt;/button&gt;
+&lt;button type=&quot;button&quot; class=&quot;list-group-item list-group-item-action&quot; onclick=&quot;this.style.backgroundColor=&#39;#5e8557&#39;; this.style.color=&#39;white&#39;;&quot; onblur=&quot;this.style.backgroundColor=&#39;&#39;; this.style.color=&#39;&#39;;&quot; onfocus=&quot;this.style.backgroundColor=&#39;#5e8557&#39;; this.style.color=&#39;white&#39;;&quot;&gt;
+    الزر الخامس
+&lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;style&gt;
+body {
+font-family: &#39;Droid Arabic Kufi&#39;;
+}
+&lt;/style&gt;
+                </code></pre>
+        </div>
+        </p>
+
+
+        <!---------------------------------------------------------------------------------->
+
+
+
+
+        <script>
+            function copyCodeToClipboard(codeId, buttonId) {
+                const codeBlock = document.getElementById(codeId);
+                const textarea = document.createElement("textarea");
+                const copyButton = document.getElementById(buttonId);
+                document.body.appendChild(textarea);
+                textarea.value = codeBlock.innerText;
+                textarea.select();
+                document.execCommand("copy");
+                document.body.removeChild(textarea);
+                copyButton.innerHTML = "<i class='bi bi-check' style='font-size: 1.2rem;color: #ebebeb;'></i>";
+                setTimeout(() => {
+                    copyButton.innerHTML = "<i class='bi bi-clipboard2' style='font-size: 1.2rem;color: #ebebeb;'></i>";
+                }, 1500);
+            }
+
+
+            var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
+            var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
+                return new bootstrap.Popover(popoverTriggerEl)
+            })
+            var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+            var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+                return new bootstrap.Tooltip(tooltipTriggerEl)
+            })
+        </script>
+</body>
+
+
+
+</html>
